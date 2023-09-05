@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Daniel Osorio Quimbayo" />
+    <meta
+      name="description"
+      content="Portfolio de proyectos de Daniel OSorio"
+    />
+    <meta name="keywords" content="HTML,CSS,JavaScript,TypeScript,React" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Portfolio-Daniel Osorio</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon-32x32.png" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link href="./style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-toggler"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="./images/favicon.ico" width="50" alt="Logo" />
+          </a>
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#sobre-mi"
+                >About me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero align-items-stretch">
+      <div
+        class="hero-principal d-flex flex-column justify-content-center align-items-center"
+      >
+        <img class="image-dev" src="./images/perfil.jpg" alt="programando" />
+        <h1>Hello!! I'am Daniel Osorio, Software Developer</h1>
+        <h2>
+          This is my portfolio where you will find the projects that I have made
+        </h2>
+      </div>
+      <div class="hero-inferior">
+        <img
+          class="image-front hero-inferior-img img-fluid"
+          src="./images/img-hero.avif"
+          alt="React, Python"
+        />
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2>About me</h2>
+        <p>
+          Mechatronics engineer with knowledge in web pages, desktop applications and artificial intelligence.
+        </p>
+        <ul>
+          Experience:
+          <li>
+            1-year experience in artificial intelligence developing the prototype of a 
+            biometric facial recognition system based on artificial intelligence.
+          </li>
+          <li>
+            1-year experience in front-end development creating projects with JavaScript and TypeScript
+            using the React library.
+          </li> 
+        </ul>
+      </div>
+    </section>
+
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <div class="columna col-12 col-md-4">
+            <img src="./images/react-icon.png" alt="react" class="react-icon">
+            <p class="experiencia-titulo">Front-end Development</p>
+            <p>Technologies</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Html5</span>
+              <span class="badge text-bg-primary">CSS3</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">TypeScript</span>
+              <span class="badge text-bg-primary">React</span>
+            </div>
+          </div>
+          <div class="columna col-12 col-md-4">
+            <img src="./images/ai-icon.png" alt="ai" class="ai-icon">
+            <p class="experiencia-titulo">Artificial Intelligence</p>
+            <p>Technologies</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Python</span>
+              <span class="badge text-bg-primary">Machine Learning</span>
+              <span class="badge text-bg-primary">Deep Learning</span>
+              <span class="badge text-bg-primary">Neuronal Networks</span>    
+              <span class="badge text-bg-primary">TensorFlow</span>          
+            </div>
+          </div>
+
+          <div class="columna col-12 col-md-4">
+            <img src="./images/data-engineer-icon.png" alt="data-engineer" class="ai-icon">
+            <p class="experiencia-titulo">Data Engineer</p>
+            <p>Technologies</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Python</span>
+              <span class="badge text-bg-primary">Sql</span>
+              <span class="badge text-bg-primary">Machine Learning</span>
+              <span class="badge text-bg-primary">Neuronal Networks</span>
+              <span class="badge text-bg-primary">MySql</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="proyectos seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">My Projects </h2>
+      <h3 class="seccion-descripcion">These are some of my projects</h3>
+
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./images/imgPro1.PNG" />
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/DanielOsorio0224/todo" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://danielosorio0224.github.io/todo/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+                </div>
+              </div>
+            </div>
+            
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./images/imgPro2.PNG"/>
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/DanielOsorio0224/prueba-tecnica" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://danielosorio0224.github.io/prueba-tecnica/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+                </div>
+              </div>
+            </div>
+            
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./images/imgPro3.PNG"/>
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/DanielOsorio0224/corporate-landing-page" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://corporate-landingpage.netlify.app/#features" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+                </div>
+              </div>
+            </div>
+            
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./images/imgPro4.PNG"/>
+              <div class="overlay">
+                <p>Proyecto 4</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/DanielOsorio0224/calculadora" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://danielosorio0224.github.io/calculadora/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+                </div>
+              </div>
+            </div>
+            
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./images/imgPro5.PNG"/>
+              <div class="overlay">
+                <p>Proyecto 5</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/DanielOsorio0224/my-movies" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://danielosorio0224.github.io/my-movies/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+                </div>
+              </div>
+            </div>
+            
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./images/imgPro6.PNG"/>
+              <div class="overlay">
+                <p>Proyecto 6</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/DanielOsorio0224/roman-number" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://danielosorio0224.github.io/roman-number/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    <a href="https://github.com/DanielOsorio0224?tab=repositories" target="_blank" rel="noopener noreferrer">
+      <button type="button" class="btn btn-info">
+        view more projects
+        <i class="bi bi-arrow-right-circle"></i>
+      </button>
+    </a>
+    </section>
+
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="rectangulo container text-center d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              Talk to me
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contact me to start your project
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:dosorioquimbayo@gmail.com">
+                <button type="button">
+                  Contact
+                  <i class="bi bi-envelope-at-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+      <img class="footer-logo " src="./images/favicon.ico" alt="logo"/>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://www.linkedin.com/in/daniel-osorio-quimbayo-04b2a4228/?locale=en_US" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+          
+        </a>
+
+      </div>
+      <div class="derechos-autor">Made by Daniel Osorio Quimbayo &copy;</div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
